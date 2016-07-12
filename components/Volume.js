@@ -1,17 +1,14 @@
 var React = require('react');
-
 var Synth = require('./Synth');
 
-var App = React.createClass({
+var Volume = React.createClass({
 
   render() {
   	return (
-  		<div>
-	    <h1>APP</h1>
-      <Synth />
+  		<div >
 	    </div>
   	)
   }
 });
 
-module.exports = App;
+module.exports = Volume;

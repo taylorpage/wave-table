@@ -7,8 +7,8 @@ var osc;
 var Key = React.createClass({
 
 	_createOsc : function() {
-    osc = context.createOscillator();
-    osc.connect(context.destination);
+    osc = Audio.createOscillator();
+    osc.connect(Audio.destination);
     osc.frequency.value = this.props.freq;
     osc.start();
 	},

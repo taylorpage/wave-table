@@ -8,11 +8,20 @@ h1 {
 	margin-bottom: 20px;
 }
 
+.synth {
+	border: 2px solid black;
+}
+
 .key {
 	border: 2px solid black;
 	height: 100px;
 	width: 40px;
 	margin: 3px;
+	border-radius: 10px;
+}
+
+.key:hover {
+	background-color: rgb(100,100,200);
 }
 
 .blacks {
@@ -27,4 +36,8 @@ span {
 	margin-right: 45px;
 	margin-left: -45px;
 	display: inline-flex;
+}
+
+.volume {
+	width: 100px;
 }

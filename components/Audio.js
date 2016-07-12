@@ -1,15 +1,5 @@
+var React = require('react');
 
-// var React = require('react');
+var Audio = new window.AudioContext;
 
-// var Audio = React.createClass({
-
-
-
-//   render() {
-//   	return (
-
-//   	)
-//   }
-// });
-
-// module.exports = Audio;
+module.exports = Audio;

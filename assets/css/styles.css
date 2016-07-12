@@ -10,4 +10,21 @@ h1 {
 
 .key {
 	border: 2px solid black;
+	height: 100px;
+	width: 40px;
+	margin: 3px;
+}
+
+.blacks {
+	display: inline-flex;
+}
+
+.whites {
+	display: inline-flex;
+}
+
+span {
+	margin-right: 45px;
+	margin-left: -45px;
+	display: inline-flex;
 }

@@ -19,7 +19,7 @@ var Key = React.createClass({
 
   render() {
   	return (
-      <div className="key" onMouseDown={this._createOsc.bind(this)} onMouseUp={this._stopOsc.bind(this)}>SOUND</div>
+      <div className="key" onMouseDown={this._createOsc.bind(this)} onMouseUp={this._stopOsc.bind(this)}></div>
   	)
   }
 });

@@ -1,5 +1,8 @@
 var React = require('react');
 
-var Audio = new window.AudioContext;
+var Audio = {
+	context: new window.AudioContext,
+	type: 'sine'
+}
 
 module.exports = Audio;

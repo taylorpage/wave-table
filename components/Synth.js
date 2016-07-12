@@ -1,7 +1,7 @@
 var React = require('react');
 
 var Key = require('./Key');
-var Volume = require('./Volume');
+var Waves = require('./Waves');
 
 var Synth = React.createClass({
 	_accFreqs1: [277.183,311.127],
@@ -12,16 +12,21 @@ var Synth = React.createClass({
   render() {
   	return (
   		<div className="synth">
-	      <h3>Synth</h3>
-	      <div className="blacks">
-		      <span>
-			      { this._accFreqs1.map(frq => <Key freq={frq}/>) }
-		      </span>
-			      { this._accFreqs2.map(frq => <Key freq={frq}/>) }
-	      </div>
-	      <br />
-	      <div className="whites">
-		      { this._natFreqs.map(frq => <Key freq={frq}/>) }
+  		  <h1>MVP Synth</h1>
+	      <Waves />
+        <div className="synthCont">
+		      <div className="blacks">
+			      <span>
+				      { this._accFreqs1.map(frq => <Key freq={frq}/>) }
+			      </span>
+				      { this._accFreqs2.map(frq => <Key freq={frq}/>) }
+		      </div>
+
+		      <br />
+
+		      <div className="whites">
+			      { this._natFreqs.map(frq => <Key freq={frq}/>) }
+		      </div>
 	      </div>
       </div>
   	)

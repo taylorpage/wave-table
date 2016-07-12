@@ -1,7 +1,10 @@
 var React = require('react');
 var Synth = require('./Synth');
 
-var Volume = React.createClass({
+var Light = React.createClass({
+  lightUp: function() {
+
+  },
 
   render() {
   	return (
@@ -11,4 +14,4 @@ var Volume = React.createClass({
   }
 });
 
-module.exports = Volume;
+module.exports = Light;

@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Yellowtail);
 
+body {
+	background: url('http://wallpaperbeta.com/wallpaper_gray/gray_black_background_grunge_texture_scratches_hd-wallpaper-366512.jpg');
+	background-size: 100%;
+}
 .container {
 	max-width: 980px;
 	text-align: center;

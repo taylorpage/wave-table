@@ -12,7 +12,7 @@ var Synth = React.createClass({
   render() {
   	return (
   		<div className="synth">
-  		  <h1>MVP Synth</h1>
+  		  <h1>MVP Wave</h1>
 	      <Waves />
         <div className="synthCont">
 		      <div className="blacks">

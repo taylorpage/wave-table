@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Yellowtail);
+
 .container {
 	max-width: 980px;
 	text-align: center;
@@ -9,19 +11,35 @@ h1 {
 }
 
 .synth {
-	border: 2px solid black;
+	border: 1px solid black;
+	border-radius: 20px;
+	background: url(http://www.texturex.com/albums/Wood-Textures/wood%20texture%20red%20grain%20wooden%20panel%20design%20wallpaper.jpg);
+	background-size: 100%;
+	box-shadow: 10px 10px 10px black;
+}
+.synthCont {
+	border-radius: 10px;
+	margin: 20px 150px;
+	background: url(http://sc01.alicdn.com/kf/HTB14Q_EKVXXXXadXVXXq6xXFXXXn/Buffalo-leather-Grain-split.jpg);
+}
+
+.synth h1 {
+	color: white;
+	font-family: "Yellowtail";
+	font-size: 100px;
 }
 
 .key {
-	border: 2px solid black;
+	border: 1px solid gray;
 	height: 100px;
 	width: 40px;
 	margin: 3px;
 	border-radius: 10px;
+	background: url(http://img13.deviantart.net/9532/i/2008/329/c/5/kids_room___fabric_texture_by_s_i_nthetic_dreams.jpg);
 }
 
 .key:hover {
-	background-color: rgb(100,100,200);
+	box-shadow: 0px 0px 5px white;
 }
 
 .blacks {
@@ -40,4 +58,24 @@ span {
 
 .volume {
 	width: 100px;
+}
+
+.wave {
+	margin: 10px;
+	height: 40px;
+	width: 72px;
+	border-color: green;
+	color: rgb(0,100,0);
+	font-family: "Yellowtail";
+	background: url('../Switch.png');
+}
+
+.wave:hover {
+	box-shadow: 0px 0px 10px white;
+}
+
+.waveCont {
+  margin: 10px 200px;
+  border-radius: 10px;
+  background: url(http://sc01.alicdn.com/kf/HTB14Q_EKVXXXXadXVXXq6xXFXXXn/Buffalo-leather-Grain-split.jpg);
 }

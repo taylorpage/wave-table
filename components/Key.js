@@ -1,6 +1,6 @@
 var React = require('react');
 var Audio = require('./Audio');
-
+var Counter = require('./counter')
 var osc;
 
 var Key = React.createClass({
@@ -11,10 +11,12 @@ var Key = React.createClass({
     osc.frequency.value = this.props.freq;
     osc.type = Audio.type;
     osc.start();
+    Counter.count++;
 	},
 
 	_stopOsc: function() {
 		osc.stop();
+    Counter.count--;
 	},
 
   render() {

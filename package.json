@@ -5,6 +5,7 @@
   "main": "main.js",
   "private": true,
   "scripts": {
+    "start": "npm run build; node server.js",
     "watch": "watchify -v -d -t [ reactify --es6 ] main.js -o compiled.js",
     "build": "NODE_ENV=production browserify -t [ reactify --es6 ] main.js | uglifyjs > compiled.js"
   },

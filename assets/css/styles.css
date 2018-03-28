@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Yellowtail);
 
 body {
-	background: url('http://wallpaperbeta.com/wallpaper_gray/gray_black_background_grunge_texture_scratches_hd-wallpaper-366512.jpg');
+	background: url('http://www.texturex.com/albums/Grunge-Textures/grunge%20texture%20ugly%20hard%20core%20scratched%20wallpaper%20fused%20abstract.jpg');
 	background-size: 100%;
 }
 .container {
@@ -17,14 +17,14 @@ h1 {
 .synth {
 	border: 1px solid black;
 	border-radius: 20px;
-	background: url(http://www.texturex.com/albums/Wood-Textures/wood%20texture%20red%20grain%20wooden%20panel%20design%20wallpaper.jpg);
+	background: url('http://www.texturex.com/albums/Wood-Textures/wood%20texture%20red%20grain%20wooden%20panel%20design%20wallpaper.jpg');
 	background-size: 100%;
 	box-shadow: 10px 10px 10px black;
 }
 .synthCont {
 	border-radius: 10px;
 	margin: 20px 150px;
-	background: url(http://sc01.alicdn.com/kf/HTB14Q_EKVXXXXadXVXXq6xXFXXXn/Buffalo-leather-Grain-split.jpg);
+	background: url('http://sc01.alicdn.com/kf/HTB14Q_EKVXXXXadXVXXq6xXFXXXn/Buffalo-leather-Grain-split.jpg');
 }
 
 .synth h1 {
@@ -39,7 +39,7 @@ h1 {
 	width: 40px;
 	margin: 3px;
 	border-radius: 10px;
-	background: url(http://img13.deviantart.net/9532/i/2008/329/c/5/kids_room___fabric_texture_by_s_i_nthetic_dreams.jpg);
+	background: url('http://img13.deviantart.net/9532/i/2008/329/c/5/kids_room___fabric_texture_by_s_i_nthetic_dreams.jpg');
 }
 
 .key:hover {
@@ -81,6 +81,6 @@ span {
 .waveCont {
   margin: 10px 200px;
   border-radius: 10px;
-  background: url(http://sc01.alicdn.com/kf/HTB14Q_EKVXXXXadXVXXq6xXFXXXn/Buffalo-leather-Grain-split.jpg);
+  background: url('http://sc01.alicdn.com/kf/HTB14Q_EKVXXXXadXVXXq6xXFXXXn/Buffalo-leather-Grain-split.jpg');
 }
 

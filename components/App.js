@@ -5,11 +5,7 @@ var Synth = require('./Synth');
 var App = React.createClass({
 
   render() {
-  	return (
-  		<div>
-        <Synth />
-	    </div>
-  	)
+  	return (<div><Synth /></div>)
   }
 });
 
